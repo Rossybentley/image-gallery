@@ -21,3 +21,9 @@
 .modal-image:hover {
   transform: scale(1.05);
 }
+@media (max-width: 768px) {
+  .modal-image {
+    max-width: 95%;
+    max-height: 70%;
+  }
+}
